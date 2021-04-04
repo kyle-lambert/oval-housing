@@ -1,0 +1,32 @@
+@import "../../../styles/abstracts/variables";
+
+.Button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+  border-radius: 2.4rem;
+  color: $text-white;
+  cursor: pointer;
+  transition: transform 150ms ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+
+  &--primary {
+    background-color: $brand-green;
+  }
+
+  &--secondary {
+    background-color: $brand-teal-dark;
+  }
+
+  &--small {
+    font-size: 1.4rem;
+  }
+}
