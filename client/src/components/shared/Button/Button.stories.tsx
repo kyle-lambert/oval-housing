@@ -6,4 +6,6 @@ export default {
   component: Button,
 };
 
-export const Primary: React.VFC = () => <Button type="button" label="Submit" />;
+export const Primary: React.VFC = () => <Button variant="primary" label="Submit" />;
+export const Secondary: React.VFC = () => <Button variant="secondary" label="Submit" />;
+
